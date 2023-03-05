@@ -53,4 +53,4 @@
 
 ### Q2: Draw a schema diagram ? 🍥
 
-![](/learn_database/schema.png)
+![](../schema.png)
