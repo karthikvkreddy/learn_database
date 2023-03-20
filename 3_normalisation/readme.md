@@ -30,5 +30,3 @@ Run CRUD command from below script:
 
 - [CRUD Command](../sql_scripts/3_CRUD.sql)
 
-
-
