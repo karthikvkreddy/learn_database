@@ -48,16 +48,14 @@ Now same query will be executed as below:
 `Question`: How fast will the segment be in the look up table ?
 ### DSA Used to implement index: BTree
 
-### How to create INDEXES/ Lookup table ?
+### Q. How to create INDEXES/ Lookup table ?
 - we have seen Look up table for PK, what about the other columns? eg. `bid`
-
-    ![](./img/ind-3.jpeg)
 
 ```
 select * from student where bid = 2
 ```
-
 - As we can see, still we could reduce the number of rows to be read.
+    ![](./img/ind-3.jpeg)
 
 ### Demo:
 - [Indexes Command](../sql_scripts/8_indexs.sql)
