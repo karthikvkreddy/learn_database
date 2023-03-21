@@ -10,6 +10,8 @@
 ### Case 1:
 #### Transfer of money from 1 bank to another bank 
 
+![](./txn-1.jpeg)
+
 1. x = read(A)   => 1000
 2. x = x - 200   => 800
 3. write(A,x)  => 800
@@ -26,6 +28,8 @@
 
 ### Case 2:
 #### Transfer  of money from A to B and C to B
+
+![](./txn-2.jpeg)
 
 1. Task1 : A -> B  (100)
 2. Task2 : C -> B (200)
@@ -78,6 +82,7 @@ SELECT * FROM products;
 commit;
 rollback;
 ```
+![](./txn-3.jpeg)
 
 ### ISOLATION:
 - how my txn is isolated from other txn
@@ -107,6 +112,8 @@ For All isolation levels :
 - benefits ?
 
 ### 1. READ UNCOMMITTED:
+
+![](./txn-4.jpeg)
 
 INPUT : X = 2000
 
@@ -144,6 +151,8 @@ eg:
 
 ### 2. READ COMMIT:
 
+![](./txn-5.jpeg)
+
 INPUT : X = 2000
 
     1. 2000, X = 2000
@@ -172,6 +181,8 @@ Output: 2500
 
 Eg. (students):
 
+![](./txn-6.jpeg)
+
 1. read all the students
 2. to all student with psp>=80, add 1000 points
 3. read all students
@@ -183,3 +194,5 @@ Eg. (students):
 
 
 ### 3. REPEATABLE READ = Default:
+
+![](./txn-7.jpeg)
